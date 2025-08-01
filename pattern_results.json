@@ -1,0 +1,14 @@
+[
+  {
+    "success": true,
+    "data": {
+      "input_pattern": "//|//",
+      "predicted_next": "|",
+      "explanation": "Pola tersebut terdiri dari dua elemen yang berulang: \"//\" dan \"|\".  Urutannya adalah \"//\", \"|\", \"//\". Elemen selanjutnya akan mengikuti urutan tersebut, yaitu \"|\".",
+      "confidence": 95,
+      "full_pattern_example": "//|//|"
+    },
+    "raw_response": "```json\n{\n  \"input_pattern\": \"//|//\",\n  \"predicted_next\": \"|\",\n  \"explanation\": \"Pola tersebut terdiri dari dua elemen yang berulang: \\\"//\\\" dan \\\"|\\\".  Urutannya adalah \\\"//\\\", \\\"|\\\", \\\"//\\\". Elemen selanjutnya akan mengikuti urutan tersebut, yaitu \\\"|\\\".\",\n  \"confidence\": 95,\n  \"full_pattern_example\": \"//|//|\"\n}\n```",
+    "timestamp": "2025-07-10T22:35:04.575468"
+  }
+]
