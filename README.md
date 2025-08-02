@@ -1,6 +1,6 @@
 ## 🔍 Gemini Pattern Predictor 🧩
  
-Gemini Pattern Predictor adalah aplikasi CLI berbasis Python yang memanfaatkan kekuatan Google Gemini AI untuk memprediksi pola berikutnya dari rangkaian karakter.
+Pattern Predictor adalah aplikasi CLI berbasis Python yang memanfaatkan kekuatan Google Gemini AI untuk memprediksi pola berikutnya dari rangkaian karakter.
 Aplikasi ini cocok digunakan oleh developer, peneliti, atau siapa saja yang tertarik dalam eksplorasi pattern recognition dengan AI.
 
 ## ✨ Fitur Utama
