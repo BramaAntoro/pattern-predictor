@@ -10,5 +10,17 @@
     },
     "raw_response": "```json\n{\n  \"input_pattern\": \"//|//\",\n  \"predicted_next\": \"|\",\n  \"explanation\": \"Pola tersebut terdiri dari dua elemen yang berulang: \\\"//\\\" dan \\\"|\\\".  Urutannya adalah \\\"//\\\", \\\"|\\\", \\\"//\\\". Elemen selanjutnya akan mengikuti urutan tersebut, yaitu \\\"|\\\".\",\n  \"confidence\": 95,\n  \"full_pattern_example\": \"//|//|\"\n}\n```",
     "timestamp": "2025-07-10T22:35:04.575468"
+  },
+  {
+    "success": true,
+    "data": {
+      "input_pattern": "\\||11||\\",
+      "predicted_next": "11",
+      "explanation": "Pola tersebut menunjukkan urutan yang berulang: dua backslash, dua garis vertikal, dua angka satu, dua backslash, dua garis vertikal.  Elemen yang berulang adalah \"\\|\" dan \"11\".  Karena urutan terakhir adalah \"||\", maka elemen selanjutnya dalam pola berulang tersebut adalah \"11\".",
+      "confidence": 95,
+      "full_pattern_example": "\\||11||\\11"
+    },
+    "raw_response": "```json\n{\n  \"input_pattern\": \"\\\\||11||\\\\\",\n  \"predicted_next\": \"11\",\n  \"explanation\": \"Pola tersebut menunjukkan urutan yang berulang: dua backslash, dua garis vertikal, dua angka satu, dua backslash, dua garis vertikal.  Elemen yang berulang adalah \\\"\\\\|\\\" dan \\\"11\\\".  Karena urutan terakhir adalah \\\"||\\\", maka elemen selanjutnya dalam pola berulang tersebut adalah \\\"11\\\".\",\n  \"confidence\": 95,\n  \"full_pattern_example\": \"\\\\||11||\\\\11\"\n}\n```",
+    "timestamp": "2025-08-02T15:43:22.183581"
   }
 ]
